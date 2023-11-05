@@ -14,5 +14,8 @@ import SoundBoard from './pages/SoundBoard.vue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 </style>

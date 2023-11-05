@@ -1,6 +1,6 @@
 <template>
-    <div class="sound-board" :style="{ height: windowHeight + 'px', width: windowWidth + 'px' }">
-        <audio id="myAudio" src="/audio/sayram.mp3" autoplay controls playsinline preload="auto" style="margin-top: 300px;"></audio>
+    <div class="sound-board" style="width: 1080px; height: 1920px;">
+        <audio id="myAudio" src="/audio/sayram.mp3" autoplay controls playsinline preload="auto" style="margin-top: 250px;"></audio>
     </div>
 </template>
 
@@ -38,8 +38,9 @@ export default {
 <style>
 .sound-board {
     background-image: url('../assets/img/soundboard.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
+    /* background-size:contain; */
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 </style>
