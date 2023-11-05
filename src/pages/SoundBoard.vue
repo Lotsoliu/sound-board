@@ -41,6 +41,6 @@ export default {
     background-size: 100%;
     /* background-size:contain; */
     /* background-position: center; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 </style>
