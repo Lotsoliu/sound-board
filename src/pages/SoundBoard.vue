@@ -1,5 +1,5 @@
 <template>
-    <div class="sound-board" style="width: 1080px; height: 1920px;">
+    <div class="sound-board" :style="{height:this.windowHeight+'px', width:this.windowWidth+'px'}">
         <audio id="myAudio" src="/audio/sayram.mp3" autoplay controls playsinline preload="auto" style="margin-top: 250px;"></audio>
     </div>
 </template>
